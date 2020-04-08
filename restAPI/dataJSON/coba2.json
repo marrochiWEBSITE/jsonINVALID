@@ -1,0 +1,22 @@
+[
+    {
+        "nama" : "marrochi",
+        "umur" : 22,
+        "lulus" : true,
+        "hoby"  : ["gamers","bultang"],
+        "pembimbing" : {
+            "pembmbing1" : "eko mulyono",
+            "pembimbing2" : "vairus sal sabila"
+        }
+    },
+    {
+        "nama" : "malia",
+        "umur" : 20,
+        "lulus" : false,
+        "hoby"  : ["berenang"],
+        "pembimbing" : {
+            "pembmbing1" : "ajis bambang",
+            "pembimbing2" : "sania"
+        }
+    }
+]
