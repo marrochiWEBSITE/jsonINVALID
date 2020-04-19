@@ -1,12 +1,19 @@
 <?php 
 
-function json_go($json){
-        return json_encode($json);
-}
+// function json_go($json){
+//         return json_encode($json);
+// }
 // $mahasiswa = [
-//         "nama" => "marrochi",
-//         "nim" => 171011400286,
-//         "aktif" => true
+//         [
+//                 "nama" => "marrochi",
+//                 "nim" => 171011400286,
+//                 "aktif" => true
+//         ],
+//         [
+//                 "nama" => "ayu",
+//                 "nim" => 171011400682,
+//                 "aktif" => true
+//         ],
 // ];
 
 // $json_encode = json_encode($mahasiswa);
@@ -29,10 +36,13 @@ function json_go($json){
 // echo json_go($multiMahasiswa);
 
 
-$dbh = new PDO('mysql:host=localhost;dbname=db_json','root','');
-$db = $dbh->prepare("select * from mahasiswa");
-$db->execute();
-$mahasiswa = $db->fetchAll(PDO::FETCH_ASSOC);
+// $dbh = new PDO('mysql:host=localhost;dbname=db_json','root','');
+// $db = $dbh->prepare("select * from mahasiswa");
+// $db->execute();
+// $mahasiswa = $db->fetchAll(PDO::FETCH_ASSOC);
 
-echo json_go($mahasiswa);
+// // echo json_go($mahasiswa);
+// $arrayJson = json_go($mahasiswa);
+
 ?>
+
